@@ -5,9 +5,9 @@
 	--red: rgb(var(--red-rgb));
 	--green: rgb(var(--green-rgb));
 
-	--counter-terrorists-fill: rgb(var(--counter-terrorists-fill-rgb));
-	--counter-terrorists-border: rgb(var(--counter-terrorists-border-rgb));
-	--counter-terrorists-text: rgb(var(--counter-terrorists-text-rgb));
+	--counter-terrorists-fill: rgb(var(--black-rgb));
+	--counter-terrorists-border: rgb(var(--black-rgb));
+	--counter-terrorists-text: rgb(var(--black-rgb));
 
 	--terrorists-fill: rgb(var(--terrorists-fill-rgb));
 	--terrorists-border: rgb(var(--terrorists-border-rgb));

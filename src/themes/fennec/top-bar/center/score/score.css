@@ -2,7 +2,7 @@
 	display: flex;
 
 	font-size: var(--top-bar-score-font-size);
-	font-weight: 700;
+	font-weight: 2000;
 }
 
 .score.--left::before,
@@ -26,13 +26,13 @@
 .score.--ct.--left::before,
 .score.--ct.--right::after,
 .score.--ct .inner {
-	background: var(--counter-terrorists-fill);
+	background: red;
 }
 
 .score.--t.--left::before,
 .score.--t.--right::after,
 .score.--t .inner {
-	background: var(--terrorists-fill);
+	background: red;
 }
 
 .score.--left {

@@ -6,34 +6,34 @@
 	--red-rgb: 255, 51, 51;
 	--green-rgb: 51, 204, 77;
 
-	--counter-terrorists-fill-rgb: 29, 158, 222;
-	--counter-terrorists-border-rgb: var(--counter-terrorists-fill-rgb);
-	--counter-terrorists-text-rgb: var(--counter-terrorists-fill-rgb);
+	--counter-terrorists-fill-rgb: var(--black-rgb);
+	--counter-terrorists-border-rgb: var(--black-rgb);
+	--counter-terrorists-text-rgb: var(--black-rgb);
 
-	--terrorists-fill-rgb: 193, 136, 3;
-	--terrorists-border-rgb: var(--terrorists-fill-rgb);
-	--terrorists-text-rgb: var(--terrorists-fill-rgb);
+	--terrorists-fill-rgb: var(--black-rgb);
+	--terrorists-border-rgb: var(--black-rgb);
+	--terrorists-text-rgb: var(--black-rgb);
 
-	--bomb-defused-fill-rgb: var(--green-rgb);
-	--bomb-defusing-fill-rgb: var(--red-rgb);
-	--bomb-exploded-fill-rgb: var(--red-rgb);
-	--bomb-planted-fill-rgb: var(--red-rgb);
+	--bomb-defused-fill-rgb: var(--black-rgb);
+	--bomb-defusing-fill-rgb: var(--black-rgb);
+	--bomb-exploded-fill-rgb: var(--black-rgb);
+	--bomb-planted-fill-rgb: var(--black-rgb);
 
 	/* Use-Case Specific Colors */
-	--viewport-fill: #070;
-	--text-color: var(--white);
-	--corner-color: rgba(0, 0, 0, 0.75);
+	--viewport-fill: #var(--black-rgb);
+	--text-color: var(--black-rgb);
+	--corner-color: var(--black-rgb);
 
-	--progress-bar-fill-color-bomb: var(--red);
+	--progress-bar-fill-color-bomb: var(--black-rgb);
 
-	--radar-inferno-flame-ct-fill: rgba(142, 79, 111, 0.75);
-	--radar-inferno-flame-t-fill: rgba(193, 68, 2, 0.75);
-	--radar-player-carrying-bomb-fill: var(--red);
-	--radar-smoke-ct-fill: rgba(99, 134, 150, 0.75);
-	--radar-smoke-t-fill: rgba(119, 115, 78, 0.75);
+	--radar-inferno-flame-ct-fill: var(--black-rgb);
+	--radar-inferno-flame-t-fill: var(--black-rgb);
+	--radar-player-carrying-bomb-fill: var(--black-rgb);
+	--radar-smoke-ct-fill: var(--black-rgb);
+	--radar-smoke-t-fill: var(--black-rgb);
 
-	--sidebar-bad-kd-ratio-text: var(--red);
-	--sidebar-damage-taken-fill: var(--red);
+	--sidebar-bad-kd-ratio-text: var(--black-rgb);
+	--sidebar-damage-taken-fill: var(--black-rgb);
 	--sidebar-good-kd-ratio-text: var(--green);
 	--sidebar-round-money-spent-text: var(--red);
 	--sidebar-player-money-text: var(--green);
